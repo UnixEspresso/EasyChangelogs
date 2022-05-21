@@ -1,11 +1,8 @@
 package me.espresso.changelogs;
 
-import java.lang.reflect.Array;
-import java.util.List;
-
 public class Changelog {
-    private String[] updates;
-    private String title;
+    private final String[] updates;
+    private final String title;
 
     public Changelog(String title, String[] content){
         this.updates = content;
@@ -20,3 +17,4 @@ public class Changelog {
         return title;
     }
 }
+
